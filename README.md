@@ -1,4 +1,4 @@
-#  AI-Powered Excel Mock Interviewer (PoC)
+#  AI-Powered Excel Mock Interviewer
 
 ## Objective
 The goal is to develop a chatbot that can ask questions about Excel and, based on the answers, generate a report on the user’s performance.As of now, it is not connected to any database — it uses in-memory JSON storage to keep the values.In the future, we can save this data in a database for model improvement and fine-tuning.
