@@ -10,7 +10,7 @@ def get_chat_response(userAnswer,session_id):
         'answer' : userAnswer
     }
     try:
-        response = requests.post("http://localhost:8000/chat", headers=headers,json=data)
+        response = requests.post("https://excel-interviewer-fpmr.onrender.com/chat", headers=headers,json=data)
         if response.status_code == 200:
           return response.json()
         else:
